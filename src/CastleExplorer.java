@@ -18,7 +18,7 @@ public class CastleExplorer {
 
         displayDragons();
         System.out.println("It is "+checkFirePower()+" that 2 or more dragons have the same fire power.");
-        decipher(ancientRunes);
+        System.out.println("This is the deciphered ancient rune: "+decipher(ancientRunes));
     }
 
     public void displayDragons(){
